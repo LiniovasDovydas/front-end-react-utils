@@ -1,5 +1,0 @@
-- [+] Add eslint to the project
-- [+] Add prettier to the project
-- [ ] Add husky to the project
-- [+] Add editor config
-- [+] Add vscode settings/extensions
