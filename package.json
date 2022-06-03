@@ -1,5 +1,5 @@
 {
-  "name": "fe-frequent-utils",
+  "name": "front-end-react-utils",
   "version": "0.0.1",
   "description": "Utilities that are used often in projects for ex. modal manager, formatting and etc.",
   "main": "build/cjs/index.js",
