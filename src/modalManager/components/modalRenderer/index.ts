@@ -1,0 +1,1 @@
+export { ModalsRenderer } from "./modalsRenderer";

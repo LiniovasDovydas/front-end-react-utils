@@ -1,0 +1,58 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended",
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "endOfLine": "off",
+    "import/order": "off",
+    "linebreak-style": "off",
+    "import/extensions": "off",
+    "react/display-name": "off",
+    "react/forbid-prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": [2, { "namedComponents": ["arrow-function", "function-expression", "function-declaration"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/require-default-props": [
+      "error",
+      {
+        "ignoreFunctionalComponents": true
+      }
+    ],
+    "prettier/prettier": [
+      "error", 
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}

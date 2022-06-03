@@ -1,0 +1,66 @@
+{
+  "name": "fe-frequent-utils",
+  "version": "1.0.0",
+  "description": "Utilities that are used often in projects for ex. modal manager, formatting and etc.",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.esm.js",
+  "files": [
+    "build/esm/*",
+    "build/cjs/*"
+  ],
+  "types": "build/types/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "react",
+    "utilities",
+    "front-end",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Dovydas Liniovas",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@storybook/addon-actions": "^6.5.5",
+    "@storybook/addon-essentials": "^6.5.5",
+    "@storybook/addon-interactions": "^6.5.5",
+    "@storybook/addon-links": "^6.5.5",
+    "@storybook/builder-webpack4": "^6.5.5",
+    "@storybook/manager-webpack4": "^6.5.5",
+    "@storybook/react": "^6.5.5",
+    "@storybook/testing-library": "0.0.11",
+    "@types/react": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.14.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "prettier": "2.6.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rollup": "^2.75.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {}
+}
