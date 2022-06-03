@@ -1,6 +1,6 @@
 {
   "name": "fe-frequent-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Utilities that are used often in projects for ex. modal manager, formatting and etc.",
   "main": "build/cjs/index.js",
   "module": "build/esm/index.esm.js",
@@ -23,6 +23,10 @@
     "typescript"
   ],
   "author": "Dovydas Liniovas",
+  "bugs": {
+    "url": "https://github.com/LiniovasDovydas/front-end-react-utils/issues"
+  },
+  "homepage": "https://github.com/LiniovasDovydas/front-end-react-utils",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0",
