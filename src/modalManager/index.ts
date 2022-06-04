@@ -6,10 +6,12 @@ export { ModalManagerProvider } from "./modalManagerProvider";
 export { ModalsRenderer } from "./components/modalRenderer";
 
 /** Export hooks */
-export { useModalManagerContext } from "./hooks/useModalManagerContext";
+export { useModal } from "./hooks/useModal";
+export { useModalVisible } from "./hooks/useModalVisible";
 export { useCurrentModal } from "./hooks/useCurrentModal";
 export { useModalHelpers } from "./hooks/useModalHelpers";
-export { useModal } from "./hooks/useModal";
+export { useAutoHideModal } from "./hooks/useAutoHideModal";
+export { useModalManagerContext } from "./hooks/useModalManagerContext";
 
 /** Export utils */
 export { createModal } from "./utils/createModal";

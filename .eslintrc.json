@@ -29,7 +29,7 @@
       }
     }
   },
-  "plugins": ["react", "prettier"],
+  "plugins": ["react", "prettier", "react-hooks"],
   "rules": {
     "endOfLine": "off",
     "import/order": "off",
@@ -38,6 +38,8 @@
     "react/display-name": "off",
     "react/forbid-prop-types": "off",
     "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
     "react/jsx-props-no-spreading": "off",
     "react/function-component-definition": [2, { "namedComponents": ["arrow-function", "function-expression", "function-declaration"] }],
